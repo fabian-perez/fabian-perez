@@ -437,6 +437,7 @@ var $container, $blog_container;
 				return false;
 				}
 			
+			console.log('aca', path);
 			// show page
 			$('#'+ path).fadeIn();
 			$('.page.active').hide();
