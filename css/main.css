@@ -72,7 +72,7 @@ button {
    http://www.adtrak.co.uk/blog/font-face-chrome-rendering/#fix */
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
 	@font-face {
-		font-family: 'FontAwesome'; src: url('font/font-awesome/fonts/fontawesome-webfont.svg') format('svg');
+		font-family: 'FontAwesome'; src: url('../font/font-awesome/fonts/fontawesome-webfont.svg') format('svg');
 		}
 	}
 /* FONT AWESOME ICONS */
@@ -922,10 +922,10 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		
 /* STAMP */
 .stamp {
- 	position: relative; float: left; margin-right: 1.6em; width: 114px; height: 134px; background: url(../images/bckg/stamp.png) 0 0 no-repeat;
+ 	position: relative; float: left; margin-right: 1.6em; width: 114px; height: 134px; background: url(./images/stamp.png) 0 0 no-repeat;
 	}
 .stamp:after {
- 	content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../images/bckg/stamp-mask.png) 0 0 no-repeat;
+ 	content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(./images/stamp-mask.png) 0 0 no-repeat;
 	}
 	.stamp img {
 		display: block; width: 94px; height: 114px; position: absolute; top: 10px; left: 10px;
