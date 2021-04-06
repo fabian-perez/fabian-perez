@@ -533,7 +533,7 @@ a.more-link,
 .vs-triplelayout .wrapper .vs-right-outer {
  	visibility: visible
 	}
-	/*
+	
 .vs-triplelayout .wrapper .vs-left {
  	left: -100%;
 	}
@@ -549,7 +549,6 @@ a.more-link,
 .vs-triplelayout .wrapper .vs-right-outer {
  	left: 200%;
 	}
-	*/
 	
 .container.vs-move-left .vs-left,
 .container.vs-move-left .vs-current,
