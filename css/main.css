@@ -787,6 +787,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
    }
 }
 
+
 /* PROCESS */
 .process { 
 	position: relative; text-align: center; 
@@ -2490,7 +2491,14 @@ a.more-link:hover {
 	}
 	
 /* SMARTPHONES */
-@media screen and (max-width: 767px) { 
+
+@media (min-width: 768px){
+	.container {
+	    max-width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 768px) { 
 
 	/* MOBILE LAYOUT : more space for content */
 	.content {
