@@ -15,7 +15,14 @@
 	
    -------------------------------------------- */
    
-   
+   a, a:focus{
+  color: inherit;
+  border: inherit;
+  outline:none;
+} 
+a:link{
+  text-decoration: none;
+}
    
 /*  --------------------------------------------
 
@@ -417,7 +424,7 @@ a.more-link,
  	max-height: 160px; border-radius: 50%; display: inline !important;
 		}
 	.header p {
- 	font-size: 1em; margin: .1em 0 .6em; display: inline-block; font-style: italic; padding: 6px 10px; background: #FAF46A; color: #345; color: rgba(0,0,0,.7); border-radius: 4px; line-height: 1;
+ 	font-size: .9em; margin: 0.25em 0px 0.40em 1.2em; display: inline-block; font-style: italic; padding: 6px 10px; background: #FAF46A; color: #345; color: rgba(0,0,0,.7); border-radius: 4px; line-height: 1;
 		}
 /* single page menu  */
 .single-page-layout .vs-nav li a {
@@ -433,7 +440,7 @@ a.more-link,
 	
 /* TRIPLE LAYOUT */
 .vs-nav {
- 	position: relative; display: block; margin: .9em auto 0 auto; padding: 0; list-style: none;
+ 	position: relative; display: block; margin: 2em auto 0 auto; padding: 0; list-style: none;
 	}
 .vs-triplelayout .vs-nav {
  	width: 33.33%; max-width: 360px; height: 60px;
@@ -445,7 +452,7 @@ a.more-link,
  	position: absolute; visibility: hidden; width: 100%;
 	}
 .vs-nav li a {
- 	font-family: Arial, Helvetica, sans-serif; position: relative; color: #D0DADC; letter-spacing: -2px; text-decoration: none; font-weight: 700; font-size: 2.7em;
+ 	font-family: Arial, Helvetica, sans-serif; position: relative; color: #D0DADC; letter-spacing: -2px; text-decoration: none; font-weight: 700; font-size: 2.3em;
 	}
 .vs-nav li a:hover {
 	color: #BECACC;
@@ -526,6 +533,7 @@ a.more-link,
 .vs-triplelayout .wrapper .vs-right-outer {
  	visibility: visible
 	}
+	/*
 .vs-triplelayout .wrapper .vs-left {
  	left: -100%;
 	}
@@ -541,6 +549,7 @@ a.more-link,
 .vs-triplelayout .wrapper .vs-right-outer {
  	left: 200%;
 	}
+	*/
 	
 .container.vs-move-left .vs-left,
 .container.vs-move-left .vs-current,
@@ -810,7 +819,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		margin: 0 .2em; display: inline-block; 
 		}
 	.fun-fact h4 { 
-		margin: 5px 0 0 96px; font-size: 24px; letter-spacing: 1px; line-height: 1.2; font-weight: 300; 
+		margin: 5px 0 0 96px; font-size: 16px; letter-spacing: 1px; line-height: 1.2; font-weight: 300; 
 		}
 
 /* CLIENT */
@@ -863,7 +872,7 @@ h2 i[class^="icon-"], h2 i[class*=" icon-"], h2 i.fa {
 		margin: 0; padding: 0;
 		}
 	.event h5 {
-		margin: 0; padding: 0 0 .3em 0; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-weight: 700; color: #C9D5D6;
+		margin: 0; padding: .5em 0 1em 0px;; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; font-weight: 700; color: #C9D5D6;
 		}
 	.event p {
 		margin: .6em 0 .2em 0; font-size: 14px; letter-spacing: .02em;
@@ -1872,7 +1881,7 @@ a.button.colored {
 		}
 	.entry-meta a,
 	.post-pagination li a {
-		padding: 4px 10px; margin: 0 2px; border: 1px solid #DDE4E6; border-radius: 4px; text-transform: uppercase; font-size: 11px; letter-spacing: .03em; font-weight: 800;
+		padding: 4px 10px; margin: 0 2px; border: 1px solid #DDE4E6; border-radius: 4px; text-transform: uppercase; font-size: 11px; letter-spacing: .03em;
 		}
 .entry-meta a,
 .nav-single a,
@@ -2365,7 +2374,7 @@ a.more-link:hover {
 		}
 	
 	.vs-triplelayout .wrapper > section {
-	 	width: 90%; left: 5%;
+	 	/*width: 90%; left: 5%; */
 		}
 	.vs-triplelayout .wrapper .vs-left {
 		/*left: -85%; /* 90 - 5 */
@@ -2438,7 +2447,7 @@ a.more-link:hover {
 		width: 100%;
 		}
 	.vs-nav li a {
-	 	font-size: 2.4em
+	 	font-size: 2.3em
 		}
 	.content {
 		padding: 1em 3em; 
