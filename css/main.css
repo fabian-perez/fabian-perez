@@ -2373,10 +2373,10 @@ a.more-link:hover {
 		}
 	
 	.vs-triplelayout .wrapper > section {
-	 	/*width: 90%; left: 5%; */
+	 	width: 90%; left: 5%; 
 		}
 	.vs-triplelayout .wrapper .vs-left {
-		/*left: -85%; /* 90 - 5 */
+		left: -85%; /* 90 - 5 */
 		}
 	.vs-triplelayout .wrapper .vs-left-outer {
 		left: -175%; /* - 85 - 90 */
@@ -2385,7 +2385,7 @@ a.more-link:hover {
 		position: relative; z-index: 100;
 		}
 	.vs-triplelayout .wrapper .vs-right {
-		/*left: 95%; /* 90 + 5 */
+		left: 95%; /* 90 + 5 */
 		}
 	.vs-triplelayout .wrapper .vs-right-outer {
 		left: 185%; /* 95 + 90 */
