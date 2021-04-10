@@ -128,7 +128,7 @@ p {
 	}
 /* blockquote  */
 blockquote {
- 	position: relative; margin: 2em 0; padding: .3em 2em 1em 2.0em; font-size: 1.6em; font-family: Georgia, "Times New Roman", Times, serif; font-weight: 300; font-style: italic;
+ 	position: relative; margin: 2em 0; padding: .3em 2em 0em 2em; font-size: 1.6em; font-family: Georgia, "Times New Roman", Times, serif; font-weight: 300; font-style: italic;
 	}
 blockquote:before {
  	display: block; content: "\f10d"; line-height: 1; font-size: 1.2em; position: absolute; left: 0; top: -0.1em; color: #DDE4E6;
